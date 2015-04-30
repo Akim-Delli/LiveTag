@@ -14,7 +14,7 @@ function insertHiddenLiveTag(e) {
     console.log('hi');
     setTimeout( function() {
         divInputText = document.querySelector(".Am.Al.editable.LW-avf");
-        divInputText.innerHTML= '<br><br><img id="LiveTag" style="display:none" border="0" width="600" height="200" id="ecx_x0000_i1051" src="http://localhost:3000/ads">';
+        divInputText.innerHTML= '<br><br><img id="LiveTag" style="display:none" border="0" width="600" height="200" id="ecx_x0000_i1051" src="http://akim-adserver.herokuapp.com/ads">';
 
     }, 1000);
 }
