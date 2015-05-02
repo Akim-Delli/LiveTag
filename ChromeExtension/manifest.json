@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "LiveTag in every eMail",
+  "name": "LiveTags in every eMail",
   "description": "This extension allows you to monetize your e-Mail via advertising",
   "version": "1.0",
   "author" : "Akim Delli",

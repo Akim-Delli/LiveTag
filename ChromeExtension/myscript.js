@@ -1,6 +1,7 @@
 var divInputText, buttonCompose, buttonSend, tagContent;
 
-tagContent = '<div id="LiveTag" style="display:none" valign="bottom" align="center" style="border-top:1px solid #c0c0c0;padding:15px 5px;">' +
+tagContent = '<br><br>' +
+    '<div id="LiveTag" valign="bottom" align="center" style="display:none; position:absolute; border-top:1px solid #c0c0c0;padding:15px 5px;">' +
       '<table cellspacing="0" cellpadding="0" border="0">' +
           '<tbody>' +
             '<tr><td colspan="2"><a target="_blank" rel="nofollow" href="http://akim-adserver.herokuapp.com" style="display:block;width:300px;height:250px;"><img width="300" border="0" height="250" src="http://akim-adserver.herokuapp.com/ads"></a></td></tr>' +
@@ -14,7 +15,7 @@ function displayTag(e) {
     e.stopPropagation();
     document.getElementById('LiveTag').style.display = "";
 
-    console.log(document.getElementById('LiveTag'));
+    console.log("LiveTag toggled:" , document.getElementById('LiveTag'));
 }
 
 
